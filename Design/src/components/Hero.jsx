@@ -17,11 +17,11 @@ const Hero = () => {
             {/* Left Column - Text Content */}
             <div className="text-center lg:text-left space-y-8">
               <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold">
-                <span className="block text-Purp">Campus Events</span>
+                <span className="block text-Purp text-5xl lg:text-7xl">Campus Events</span>
                 <span className="block mt-2 text-black">Made Simple</span>
               </h1>
               
-              <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0">
+              <p className="text- md:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0">
                 Join a vibrant community of students exploring opportunities to learn, 
                 connect, and create memorable experiences.
               </p>
@@ -41,7 +41,7 @@ const Hero = () => {
               <motion.img 
                 src="https://res.cloudinary.com/dvfmse8he/image/upload/v1734097837/B7_eqpivv.png"
                 alt="Campus Events"
-                className="w-full h-auto"
+                className="w-full h-auto hidden md:flex md:flex-block"
                 animate={{ 
                   y: [0, -10, 0] 
                 }}
