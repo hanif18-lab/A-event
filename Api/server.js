@@ -16,6 +16,10 @@ app.use(
   })
 );
 
+app.get("/", () => {
+  return res.status(200).json("Welcome to A-Event API");
+});
+
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/events", eventRoutes);
