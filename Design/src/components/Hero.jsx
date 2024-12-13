@@ -39,7 +39,7 @@ const Hero = () => {
             {/* Right Column - Replace stats with animated image */}
             <div className="relative">
               <motion.img 
-                src="/B7.png"
+                src="https://res.cloudinary.com/dvfmse8he/image/upload/v1734097837/B7_eqpivv.png"
                 alt="Campus Events"
                 className="w-full h-auto"
                 animate={{ 
