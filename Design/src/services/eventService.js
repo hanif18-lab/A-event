@@ -13,7 +13,7 @@ const getRandomImage = () => {
 
 export const getEvents = async () => {
   try {
-    const response = await api.get("http://localhost:3001/api/events");
+    const response = await api.get("https://a-event.onrender.com/api/events");
     return response?.data?.data?.map((event) => ({
       ...event,
       image: event.image || getRandomImage(),
