@@ -4,11 +4,13 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const authRoutes = require("./routes/authRoutes");
 const eventRoutes = require("./routes/eventRoutes");
+const path = require("path");
 
 const app = express();
 
 // Middleware
 app.use(express.json());
+app.use(express.static("public"));
 app.use(
   cors({
     origin: "*",
@@ -17,7 +19,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  return res.status(200).json({ message: "Welcome to A-Event API" });
+  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 // Routes
