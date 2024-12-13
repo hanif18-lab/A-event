@@ -305,7 +305,7 @@ export const CreateEventForm = ({ onEventCreated }) => {
             <div className=''>
               <button
                 type='submit'
-                className='w-full px-6 py-2 bg-Eventhive text-white rounded-lg'
+                className='w-full px-6 py-2 bg-Purp text-white rounded-lg'
               >
                 Create Event
               </button>
