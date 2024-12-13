@@ -95,3 +95,14 @@ A modern web application for managing campus events, allowing students and staff
 - [x] Mobile-first approach
 - [x] Desktop enhancement
 - [x] Consistent UI across devices
+
+
+
+
+## Postman Testing
+
+### Admin
+![Admin](https://github.com/user-attachments/assets/e2a4e941-0aad-433a-a420-ec2556c5c4c0)
+
+### User
+![User](https://github.com/user-attachments/assets/19a0e858-8f92-44fa-a63b-cf2da6b86278)
