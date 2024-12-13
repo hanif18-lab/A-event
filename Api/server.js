@@ -16,8 +16,8 @@ app.use(
   })
 );
 
-app.get("/", () => {
-  return res.status(200).json("Welcome to A-Event API");
+app.get("/", (req, res) => {
+  return res.status(200).json({ message: "Welcome to A-Event API" });
 });
 
 // Routes
