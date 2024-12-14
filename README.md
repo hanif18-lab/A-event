@@ -39,7 +39,14 @@ A modern web application for managing campus events, allowing students and staff
 
 ## 🛠 Installation
 
-1. Clone the repository:
+### Backend
+1. cd Api
+2. npm run start
+   
+### Design
+1. cd Design
+2. npm run start
+
 
 ## 🔑 Key Features Breakdown
 
